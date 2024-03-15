@@ -11,12 +11,11 @@ public class CheckFibonacci {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int n = sc.nextInt();
-		int sum = 0, a=1, b= 0;
-		//fibonacci series - – 0, 1, 1, 2, 3, 5, 8, and 13.
+		int sum , a=1, b= 0;
+		//fibonacci series - – 0, 1, 1, 2, 3, 5, 8, and 13....
 	  System.out.println(b + " ");
 		for (int i = 0 ;i<=n;i++)
 		{
-				
          sum = a + b;
          System.out.println(" " + sum);
          a = b;
